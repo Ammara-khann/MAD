@@ -17,7 +17,7 @@ const App = () => {
       >
         <View style={GlobalStyle.centeredView}>
           <View style={GlobalStyle.modalView}>
-            <Text style={GlobalStyle.modalText}>Hello World!</Text>
+            <Text style={GlobalStyle.modalText}>Hello World! This is a modal! I have practiced alot!. I am trying to do my best and focusing on my skills.</Text>
             <TouchableOpacity
               style={[GlobalStyle.button, GlobalStyle.buttonClose]}
               onPress={() => setModalVisible(!modalVisible)}
